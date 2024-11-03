@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+    background-image:url(images/background-image-night-mode.png);
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-nav > ul {
+    list-style: none;
+    font-weight: 800;
+    color: #FFFF;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.header-nav > ul > li {
+    padding: 10px;
+}
+
+.logos {
+    display: flex;
+    padding-left: 50px;
+}
+
+.logos svg {
+    padding: 15px;
+    fill: white;
+}
+
+.linkedin,
+.github {
+    width: 70px;
+    
+}   
+
+main {
+    height: 100vh;
+    color: #FFFF;
+}
+
+main div:nth-child(1) {
+display: flex;
+height: 70%;
+flex-direction: column;
+justify-content: center;
+}
+
+main h1 {
+    font-size: 6rem;
+}
+
+main h2 {
+    font-weight: 350;
+    font-size: 2rem;
+}
+
+
+.skills {
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+    border-radius: 25%;
+    margin: 10px;
+}
+
+
+
